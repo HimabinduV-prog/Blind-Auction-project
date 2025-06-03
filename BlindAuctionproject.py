@@ -3,6 +3,23 @@
 #TODO-3: Whether if new bids need to be added
 #TODO-4: Compare bids in dictionary
 
+logo = r'''
+                         ___________
+                         \         /
+                          )_______(
+                          |"""""""|_.-._,.---------.,_.-._
+                          |       | | |               | | ''-.
+                          |       |_| |_             _| |_..-'
+                          |_______| '-' `'---------'` '-'
+                          )"""""""(
+                         /_________\\
+                       .-------------.
+                      /_______________\\
+'''
+print(logo)
+
+
+
 def find_highest_bidder(bidding_dictionary):
     winner = ""
     highest_bid = 0
